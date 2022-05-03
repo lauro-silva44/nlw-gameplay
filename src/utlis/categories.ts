@@ -4,8 +4,8 @@ import FunSvg from "../assets/fun.svg";
 import TrainingSvg from "../assets/training.svg";
 
 export const categories = [
-  { id: 1, title: "Randqueda", icon: RankedSvg },
-  { id: 1, title: "Randqueda", icon: DuelSvg },
-  { id: 1, title: "Randqueda", icon: FunSvg },
-  { id: 1, title: "Randqueda", icon: TrainingSvg },
+  { id: "1", title: "Randqueda", icon: RankedSvg },
+  { id: "2", title: "Duel", icon: DuelSvg },
+  { id: "3", title: "Fun", icon: FunSvg },
+  { id: "4", title: "Training", icon: TrainingSvg },
 ];
