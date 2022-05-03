@@ -7,9 +7,7 @@ import {
   Rajdhani_500Medium,
   Rajdhani_700Bold,
 } from "@expo-google-fonts/rajdhani";
-import { Home } from "./src/screens/Home";
-import { StatusBar, View } from "react-native";
-import { Background } from "./src/components/Background";
+import { StatusBar } from "react-native";
 
 import { Routes } from "./src/routes";
 
@@ -25,13 +23,13 @@ export default function App() {
   }
 
   return (
-    <Background>
+    <>
       <StatusBar
         barStyle="light-content"
         backgroundColor="transparent"
         translucent
       />
       <Routes />
-    </Background>
+    </>
   );
 }
