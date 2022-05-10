@@ -21,6 +21,36 @@ export function Guilds({ handleGuildsSelected }: Props) {
       icon: "imag.png",
       owner: true,
     },
+    {
+      id: "3",
+      name: "100Sombra",
+      icon: "imag.png",
+      owner: true,
+    },
+    {
+      id: "4",
+      name: "100Sombra",
+      icon: "imag.png",
+      owner: true,
+    },
+    {
+      id: "5",
+      name: "100Sombra",
+      icon: "imag.png",
+      owner: true,
+    },
+    {
+      id: "6",
+      name: "100Sombra",
+      icon: "imag.png",
+      owner: true,
+    },
+    {
+      id: "7",
+      name: "100Sombra",
+      icon: "imag.png",
+      owner: true,
+    },
   ];
   return (
     <View style={styles.container}>
@@ -31,7 +61,9 @@ export function Guilds({ handleGuildsSelected }: Props) {
           <Guild data={item} onPress={() => handleGuildsSelected(item)} />
         )}
         showsVerticalScrollIndicator={false}
-        ItemSeparatorComponent={() => <ListDivider />}
+        ListHeaderComponent={() => <ListDivider isCentered />}
+        contentContainerStyle={{ paddingBottom: 68, paddingTop: 103 }}
+        ItemSeparatorComponent={() => <ListDivider isCentered />}
         style={styles.guilds}
       />
     </View>

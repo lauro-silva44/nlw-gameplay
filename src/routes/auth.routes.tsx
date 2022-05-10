@@ -21,9 +21,9 @@ export function AuthRoutes() {
       <Screen name="SignIn" component={SignIn} key={"SignIn"} />
       <Screen name="Home" component={Home} key={"Home"} />
       <Screen
-        name="AppoitmmentsDetails"
+        name="AppointmmetDetails"
         component={AppointmmetDetails}
-        key={"Appoitmmets"}
+        key={"AppointmmetDetails"}
       />
       <Screen
         name="AppointmmetCreate"
